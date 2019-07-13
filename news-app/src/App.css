@@ -1,5 +1,9 @@
-html { 
+html,body { 
   height:100%; 
+}
+
+.app {
+  margin-top:55px;
 }
 
 footer{ 
@@ -10,15 +14,28 @@ footer{
   bottom: 0;
 }
 
-.content {
+.post-body {
+  border-left: #bdc3c7 5px solid;
+  padding-left: 10px;
+}
+
+.centered {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homepage-content {
   background-image: url("https://images.unsplash.com/photo-1521295121783-8a321d551ad2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80");
   font-family: 'Literata', serif;
   color: white;
-  position:relative;
+  position:fixed;
   background-size: cover;
   background-position: center;
   text-align: center;
-  min-height:100%; 
+  min-height:100%;
+  min-width: 100%;
   padding-top: 25%;
   text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 
                   0px 8px 13px rgba(0,0,0,0.1),

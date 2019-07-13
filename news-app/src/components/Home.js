@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Home() {
     return (
-        <div className="container content">
+        <div className="container homepage-content">
             <div className="row">
                 <div className="col-lg-12">
                     <h1>News Application</h1>

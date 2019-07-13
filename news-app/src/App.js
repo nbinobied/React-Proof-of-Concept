@@ -11,15 +11,17 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
-      <Header />
-      <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/posts" exact component={Posts} />
-        <Route path="/posts/:id" component={Post} />
-      </Switch>
-      <Footer />
-    </Router>
+    <div className="app">
+      <Router>
+        <Header />
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/posts" exact component={Posts} />
+          <Route path="/posts/:id" component={Post} />
+        </Switch>
+        <Footer />
+      </Router>
+    </div>
   );
 }
 
