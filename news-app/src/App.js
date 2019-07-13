@@ -12,15 +12,15 @@ import './App.css';
 function App() {
   return (
     <div className="app">
-      <Router>
-        <Header />
-        <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/posts" exact component={Posts} />
-          <Route path="/posts/:id" component={Post} />
-        </Switch>
-        <Footer />
-      </Router>
+        <Router>
+          <Header />
+          <Switch>
+            <Route path="/" exact component={Home} />
+            <Route path="/posts" exact component={Posts} />
+            <Route path="/posts/:id" component={Post} />
+          </Switch>
+          <Footer />
+        </Router>
     </div>
   );
 }
